@@ -1,0 +1,173 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
+div.navegacao{
+    font-size: 24px;
+    font-family:cursive;
+}
+a.menu{
+    color: whitesmoke;
+    margin-left: 50px;
+    font-weight: bold;
+    
+}
+
+div.img_home{
+    background-image: url("../img/home.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.home{
+    text-align: justify;
+    margin: 100px;
+}
+
+
+
+div.servicos{
+    text-align: justify;
+    margin: 50px;
+    display: inline-block;
+    width: 40%;
+}
+div.servicos2{
+    display: inline-block;
+    position: absolute;
+    width: 52%;
+    height: 1160px;
+    float: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+div.img_cases_sucesso{
+    background-image: url("../img/cases_sucesso.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.cases_sucesso{
+    text-align: justify;
+    margin: 100px;
+    padding-bottom: 20px;
+}
+div.cases_sucesso h1{
+    text-align: center;
+    padding-top: 20px;
+}
+div.cases_sucesso h4{
+    text-decoration:underline overline;
+    font-size: 28px;
+}
+div.cases_sucesso p{
+    margin-top: -30px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-indent:4em;
+}
+
+div.equipe{
+    font-size: 20px;
+    text-align: justify;
+    margin: 100px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    /*
+    column-count: 2;
+    column-gap: 20px;
+    */
+}
+div.equipe p{
+    text-indent: 4em;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+div.equipe1{
+    width: 48%;
+    display: inline-block;
+    float: left;
+}
+div.equipe2{
+    width: 48%;
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+}
+
+footer h3{
+    text-align: center;
+}
+div.rodape{
+    text-align: center;
+}
+
+
+@media(max-width:800px) {
+
+    div.servicos{
+        text-align: justify;
+        margin: 10px;
+        width: 90%;
+    }
+    div.servicos2{
+        display: inline-block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        float: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    div.equipe{
+        padding-left: 10px;
+        font-size: 16px;
+        text-align: justify;
+        margin: 10px;
+        background-color: whitesmoke;
+        color: black;
+        font-weight: bold;
+        /*
+        column-count: 2;
+        column-gap: 20px;
+        */
+    }
+    div.equipe p{
+        text-indent: 4em;
+        padding-bottom: 20px;
+    }
+    
+    div.equipe1{
+        width: 95%;
+        float: left;
+    }
+    div.equipe2{
+        width: 95%;
+        float: left;
+        padding-right: 0px;
+    }
+}
+
+
