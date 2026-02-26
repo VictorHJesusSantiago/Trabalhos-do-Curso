@@ -1,88 +1,224 @@
 <div align="center">
 
-🌐 Website Institucional (Trabalho de Curso)
-Um website estático e responsivo desenvolvido com HTML, CSS e JavaScript, apresentando uma página inicial, secções de portfólio e uma página de contacto.
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" alt="Website Logo" width="110" />
 
-<p> <img alt="Status do Projeto" src="https://img.shields.io/badge/Status-Completo-brightgreen?style=for-the-badge"> <img alt="Licença" src="https://img.shields.io/badge/Licen%C3%A7a-MIT-blue?style=for-the-badge"> </p>
+# 🌐 Website Institucional — Trabalho de Curso
 
-<p> <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> </p>
+**Um website estático e responsivo desenvolvido com HTML, CSS e JavaScript,**
+**apresentando página inicial, portfólio e formulário de contato.**
+
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Responsivo](https://img.shields.io/badge/Design-Responsivo-9C27B0?style=for-the-badge)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completo-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 </div>
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🚀 Demo ao Vivo (GitHub Pages)
-Veja o projeto em ação! O site está hospedado diretamente do GitHub.
+---
 
-🔗 Aceda à demonstração ao vivo aqui
-(Nota: O link assume que o repositório se chama trabalhos-do-curso)
+## 📚 Tabela de Conteúdos
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📖 Sobre o Projeto
-Este repositório contém o código-fonte de um website estático, criado como parte de um trabalho de curso. O site foi desenhado para ser a página institucional de uma empresa ou agência, demonstrando o uso fundamental de tecnologias front-end para criar um layout visualmente agradável e funcional.
+> Navegue rapidamente pelas seções do projeto.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-✨ Funcionalidades Principais
-🏠 Página Inicial Completa: Uma página index.html com várias secções (Home, Serviços, Equipa, Portfólio).
-✉️ Página de Contacto: Um formulário funcional em fale_conosco.html para envio de mensagens.
-🎨 Design Personalizado: Folhas de estilo (style.css, style2.css) para um design único.
-🖱️ Interatividade: Funcionalidades de JavaScript (complemento.js) para melhorar a experiência do utilizador.
+| # | Seção |
+|:-:|:------|
+| 1 | [📖 Sobre o Projeto](#-sobre-o-projeto) |
+| 2 | [🔗 Demo ao Vivo](#-demo-ao-vivo-github-pages) |
+| 3 | [✨ Funcionalidades Principais](#-funcionalidades-principais) |
+| 4 | [🛠️ Pilha de Tecnologias](#️-pilha-de-tecnologias) |
+| 5 | [📂 Estrutura do Repositório](#-estrutura-do-repositório) |
+| 6 | [🚀 Como Executar Localmente](#-como-executar-localmente) |
+| 7 | [🤝 Como Contribuir](#-como-contribuir) |
+| 8 | [👨‍💻 Autor](#-autor) |
+| 9 | [📄 Licença](#-licença) |
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📂 Estrutura do Repositório
-Aqui está uma visão geral da estrutura de ficheiros do projeto:
+---
 
+## 📖 Sobre o Projeto
+
+> **Website Institucional** é um site estático criado como parte de um **trabalho de curso**, demonstrando o uso fundamental das tecnologias front-end para construir um layout visualmente agradável, funcional e responsivo.
+
+O site foi projetado para funcionar como a **página institucional de uma empresa ou agência**, com seções de apresentação, portfólio, equipe e um formulário de contato — tudo sem dependência de frameworks ou bibliotecas externas.
+
+---
+
+## 🔗 Demo ao Vivo (GitHub Pages)
+
+> O site está hospedado diretamente pelo GitHub e pode ser acessado sem nenhuma instalação.
+
+<div align="center">
+
+[![Ver Demo](https://img.shields.io/badge/▶%20Acessar%20Demo%20ao%20Vivo-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://victorhjesussantiago.github.io/Trabalhos-do-Curso/)
+
+</div>
+
+---
+
+## ✨ Funcionalidades Principais
+
+| Ícone | Funcionalidade | Arquivo | Descrição |
+|:-----:|:---------------|:-------:|:----------|
+| 🏠 | **Página Inicial Completa** | `index.html` | Múltiplas seções: Home, Serviços, Equipe e Portfólio. |
+| ✉️ | **Página de Contato** | `fale_conosco.html` | Formulário funcional para envio de mensagens. |
+| 🎨 | **Design Personalizado** | `style.css` / `style2.css` | Folhas de estilo independentes para cada seção do site. |
+| 🖱️ | **Interatividade JS** | `complemento.js` | Funcionalidades JavaScript para melhorar a experiência do usuário. |
+| 📱 | **Design Responsivo** | — | Layout adaptável para dispositivos móveis, tablets e desktop. |
+
+---
+
+## 🛠️ Pilha de Tecnologias
+
+| Tecnologia | Função no Projeto |
+|:-----------|:------------------|
+| **HTML5** | Estrutura semântica de todas as páginas do site. |
+| **CSS3** | Estilização, layout responsivo e design visual personalizado. |
+| **JavaScript (ES6)** | Interatividade e comportamento dinâmico das páginas. |
+| **GitHub Pages** | Hospedagem gratuita e deploy automático a partir do repositório. |
+
+---
+
+## 📂 Estrutura do Repositório
+
+```plaintext
 trabalhos-do-curso/
 │
-
-├── css/
-
-│   ├── style.css         # Folha de estilo principal
-
-│   └── style2.css        # Folha de estilo secundária
-
+├── 📄 index.html                  # 🏠 Página inicial (Home, Serviços, Equipe, Portfólio)
+├── 📄 fale_conosco.html           # ✉️  Página do formulário de contato
 │
-
-├── img/
-
-│   ├── logo.png          # Logo do site
-
-│   ├── home.jpg          # Imagem principal
-
-│   ├── cases1.png        # Imagens do portfólio
-
-│   ├── equipe1.jpg       # Imagens da equipa
-
-│   ├── facebook.png      # Ícones de redes sociais
-
-│   └── ...               # Outras imagens
-
+├── 📁 css/
+│   ├── 📄 style.css               # 🎨 Folha de estilo principal
+│   └── 📄 style2.css              # 🎨 Folha de estilo secundária
 │
-
-├── js/
-
-│   └── complemento.js    # Script para interatividade
-
+├── 📁 js/
+│   └── 📄 complemento.js          # 🖱️  Script de interatividade
 │
+└── 📁 img/
+    ├── 📄 logo.png                 # 🏷️  Logo do site
+    ├── 📄 home.jpg                 # 🖼️  Imagem principal (banner)
+    ├── 📄 cases1.png               # 🗂️  Imagens do portfólio
+    ├── 📄 equipe1.jpg              # 👥 Imagens da equipe
+    ├── 📄 facebook.png             # 📱 Ícones de redes sociais
+    └── 📄 ...                      # Demais imagens e assets
+```
 
-├── fale_conosco.html     # Página do formulário de contacto
+---
 
-└── index.html            # Página inicial
+## 🚀 Como Executar Localmente
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-💿 Como Executar Localmente
-Este é um projeto web estático, o que o torna muito simples de executar.
+> Por ser um projeto **100% estático**, não requer instalação de dependências ou servidor back-end.
 
-Opção 1: Abrir o Ficheiro Diretamente (Recomendado)
-Clone o repositório para a sua máquina local:
-git clone https://github.com/victorhjsantiago/trabalhos-do-curso.git
+### 📋 Pré-requisitos
 
-Navegue até à pasta do projeto:
+| Requisito | Detalhe |
+|:----------|:--------|
+| **Navegador moderno** | Chrome, Firefox, Edge ou Safari (versões recentes). |
+| **Git** | Para clonar o repositório. |
+| **Live Server** *(opcional)* | Extensão do VS Code para hot-reload durante o desenvolvimento. |
+
+---
+
+### 🔧 Passo a Passo
+
+**1. Clone o repositório:**
+
+```bash
+git clone https://github.com/VictorHJesusSantiago/trabalhos-do-curso.git
 cd trabalhos-do-curso
+```
 
-Abra o ficheiro index.html diretamente no seu navegador de preferência (basta clicar duas vezes no ficheiro).
+**2. Abra o projeto:**
 
-Opção 2: Usar um Servidor Local (Live Server)
-Para uma experiência mais realista, pode usar um servidor local (isto é útil se o projeto usar fetch ou outras APIs que requerem um servidor).
-Abra a pasta do projeto no Visual Studio Code.
-Instale a extensão Live Server.
-Clique com o botão direito no ficheiro index.html e selecione "Open with Live Server".
+```bash
+# Opção A: Direto no navegador
+# Clique duplo no arquivo index.html
+
+# Opção B: Via terminal (Linux/macOS)
+open index.html
+
+# Opção B: Via terminal (Windows)
+start index.html
+```
+
+---
+
+### 🖥️ Opção com Live Server (VS Code)
+
+> Recomendado para desenvolvimento, pois recarrega automaticamente ao salvar alterações.
+
+```
+1. Abra a pasta do projeto no Visual Studio Code
+2. Instale a extensão "Live Server" (Ritwick Dey)
+3. Clique com botão direito em index.html
+4. Selecione "Open with Live Server"
+```
+
+| Método | Endereço |
+|:-------|:---------|
+| 🖥️ **Arquivo local** | `file:///caminho/para/trabalhos-do-curso/index.html` |
+| 🔴 **Live Server** | `http://localhost:5500` |
+| 🌐 **GitHub Pages** | `https://victorhjsantiago.github.io/trabalhos-do-curso/` |
+
+---
+
+## 🤝 Como Contribuir
+
+> Contribuições são muito bem-vindas! Siga as etapas abaixo para colaborar de forma organizada.
+
+| Passo | Ação | Comando |
+|:-----:|:-----|:--------|
+| 1️⃣ | **Fork** | Crie um fork do repositório para a sua conta. | — |
+| 2️⃣ | **Branch** | Crie sua feature branch a partir da `main`. | `git checkout -b feature/NovaFeature` |
+| 3️⃣ | **Commit** | Salve as alterações com mensagem clara e semântica. | `git commit -m 'feat: Adiciona NovaFeature'` |
+| 4️⃣ | **Push** | Envie a branch para o repositório remoto. | `git push origin feature/NovaFeature` |
+| 5️⃣ | **Pull Request** | Abra um PR detalhando as mudanças realizadas. | — |
+
+<div align="center">
+
+<br>
+
+**Se este projeto foi útil para os seus estudos, deixe uma estrela ⭐️ no repositório!**
+
+</div>
+
+---
+
+## 👨‍💻 Autor
+
+<div align="center">
+
+<br>
+
+**Victor H. J. Santiago**
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VictorHJesusSantiago)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-henrique-de-jesus-santiago/)
+
+</div>
+
+---
+
+## 📄 Licença
+
+<div align="center">
+
+Este projeto está distribuído sob a **Licença MIT**.
+Consulte o arquivo [`LICENSE`](./LICENSE) no repositório para mais informações.
+
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+</div>
+
+---
+
+<div align="center">
+
+*Feito com 🌐 e HTML/CSS/JS por **Victor H. J. Santiago***
+
+</div>
