@@ -91,10 +91,6 @@ div.equipe{
     background-color: whitesmoke;
     color: black;
     font-weight: bold;
-    /*
-    column-count: 2;
-    column-gap: 20px;
-    */
 }
 div.equipe p{
     text-indent: 4em;
@@ -149,10 +145,6 @@ div.rodape{
         background-color: whitesmoke;
         color: black;
         font-weight: bold;
-        /*
-        column-count: 2;
-        column-gap: 20px;
-        */
     }
     div.equipe p{
         text-indent: 4em;
